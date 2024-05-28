@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(213, 207, 207);
+}
+h1{
+    font-size: 45px;
+    color: rgb(255, 184, 6);
+}
+.container{
+    transform: translateY(25%);
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(8, 8, 8);
+    opacity: 0.9;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.content{
+    text-align: center;
+    opacity:1;
+    font-size: 25px;
+}
+.guess_inp{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 40vw;
+    border: none;
+    padding: 1.5rem;
+    outline: none;
+    background-color: rgb(180, 177, 177);
+}
+::placeholder{
+    color: rgb(74, 73, 73);
+}
+#btn{
+    cursor: pointer;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: rgb(84, 76, 76);
+    border: none;
+    padding: 1.5rem;
+}
+#btn:hover{
+    background-color: rgb(117, 109, 109);
+    transition: 0.4s;
+}
+#btn2{
+    cursor: pointer;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: rgb(84, 76, 76);
+    border: none;
+    padding: 1.5rem;
+
+}
+#btn2:hover{
+    transition: 0.4s;
+    background-color: rgb(117, 109, 109);
+}
+#output{
+    transition: 0.10s;
+    padding-top: 2rem;
+    text-align: center;
+}
